@@ -24,3 +24,8 @@
 (println set-def)
 (println ( contains? set-def 0 ))
 
+(defn map-set
+  ([values]
+   (set values)))
+
+(println (map-set [0 0 1 1 2 2])) 
